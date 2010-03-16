@@ -1,6 +1,13 @@
-macro sum 1 : + $0 1 - %sum : if $0 1 >
-macro square 1 : $0 $0 * : if T
+getln to_i 1 + 2 * 3.0 / println
 
-3 4 + 1 + 2 / print
-1 2 3 + + print
-1 2 3 4 5 5 %sum 3 / 2 + %square print
+true true and println
+false true and println
+false false or println
+false true or true and not println
+
+1 2 pop 3 4 pop println
+
+
+3 4 < println
+
+0 1 3 3 < ifelse println
